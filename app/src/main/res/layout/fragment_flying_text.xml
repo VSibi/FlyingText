@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/flyingtext_tablelayout"
+    android:background="@drawable/fragment_background"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="3dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_help"
+            android:layout_column="0"
+            android:background="@drawable/help"
+            android:layout_gravity="top" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/levels_category_title"
+            android:gravity="center"
+            android:textSize="33sp"
+            android:layout_span="5"
+            android:layout_gravity="center_horizontal"
+            android:layout_column="1" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_dialog_settings"
+            android:layout_column="6"
+            android:background="@drawable/button_settings"
+            android:layout_gravity="top" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top|center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/level_title"
+            android:text="@string/Level"
+            android:textSize="33sp"
+
+            android:layout_span="7"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5.4"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/level_image"
+            android:layout_margin="3dp"
+            android:layout_column="0"
+            android:layout_span="7"
+            android:layout_gravity="center_vertical" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8">
+
+        <TextView
+            style="@style/FlyingTextView" />
+        <TextView
+            style="@style/FlyingTextView" />
+        <TextView
+            style="@style/FlyingTextView" />
+        <TextView
+            style="@style/FlyingTextView" />
+        <TextView
+            style="@style/FlyingTextView" />
+        <TextView
+            style="@style/FlyingTextView" />
+        <TextView
+            style="@style/FlyingTextView" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_delete_letter"
+            android:layout_column="6"
+            android:background="@drawable/button_del" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:clickable="true"
+            style="@style/FlyingTextView" />
+        <TextView
+            android:clickable="true"
+            style="@style/FlyingTextView" />
+        <TextView
+            android:clickable="true"
+            style="@style/FlyingTextView" />
+        <TextView
+            android:clickable="true"
+            style="@style/FlyingTextView" />
+        <TextView
+            android:clickable="true"
+            style="@style/FlyingTextView" />
+        <TextView
+            android:clickable="true"
+            style="@style/FlyingTextView" />
+        <TextView
+            android:clickable="true"
+            style="@style/FlyingTextView" />
+    </TableRow>
+
+
+</TableLayout>

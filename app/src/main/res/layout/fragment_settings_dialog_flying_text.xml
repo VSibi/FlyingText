@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_titleSettings"
+        android:gravity="center"
+        android:text="@string/Settings"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_musicOffCheckBox"
+        android:gravity="center"
+        android:layout_below="@id/dialog_titleSettings"
+        android:padding="8dp"
+        android:text="@string/MusicOff"
+        android:layout_marginTop="5dp"
+        android:textSize="28sp"
+        android:onClick="onCheckboxClicked"
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_all_soundsOffCheckBox"
+        android:gravity="center"
+        android:layout_below="@id/dialog_musicOffCheckBox"
+        android:padding="8dp"
+        android:text="@string/AllSoundsOff"
+        android:layout_marginTop="5dp"
+        android:textSize="28sp"
+        android:onClick="onCheckboxAllSoundsOffClicked"
+        />
+
+
+</RelativeLayout>

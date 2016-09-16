@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Help">Помощь</string>
+    <string name="Levels">Выбрать уровень</string>
+    <string name="Menu">Меню</string>
+    <string name="Next">След.</string>
+    <string name="Play">Играть</string>
+    <string name="Prev">Пред.</string>
+    <string name="Settings">Настройки</string>
+    <string name="Again">Еще раз</string>
+    <string name="app_name">Летающий текст</string>
+    <string name="Correct">Правильно!</string>
+    <string name="TryAgain">Не правильно. Попробуй еще раз!</string>
+    <string name="Level">Уровень </string>
+
+    <string name="Natasha">Наташа</string>
+    <string name="Android">АНДРОИД</string>
+    <string name="Black">ЧЁРНЫЙ</string>
+    <string name="Capital">СТОЛИЦА</string>
+    <string name="Cat">КОТ</string>
+    <string name="Dasha">Даша</string>
+    <string name="Dog">СОБАКА</string>
+    <string name="Door">ДВЕРЬ</string>
+    <string name="Fox">ЛИСА</string>
+    <string name="Green">ЗЕЛЁНЫЙ</string>
+    <string name="Hand">РУКА</string>
+    <string name="House">Дом</string>
+    <string name="Phone">ТЕЛЕФОН</string>
+    <string name="Sky">НЕБО</string>
+    <string name="Slavik">Славик</string>
+    <string name="Tablet">ПЛАНШЕТ</string>
+    <string name="Water">ВОДА</string>
+    <string name="White">БЕЛЫЙ</string>
+    <string name="Window">ОКНО</string>
+
+    <string name="Sounds">Звуки</string>
+    <string name="MusicOff">Откл. Музыку</string>
+    <string name="Cancel">Отмена</string>
+    <string name="OK">ОК</string>
+    <string name="Buy">Купить</string>
+    <string name="Buy_full_ver">Купить полную версию?</string>
+    <string name="Open_market">Открыть Play market</string>
+    <string name="Open_browser">Открыть в браузере</string>
+    <string name="SuperWin">Ваш Супер приз!</string>
+    <string name="Levels_category_animals">Животные</string>
+    <string name="AllSoundsOff">Откл. все звуки</string>
+</resources>

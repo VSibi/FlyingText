@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">FlyingText</string>
+
+    <string name="Again">Again</string>
+    <string name="Play">Play</string>
+    <string name="Settings">Settings</string>
+    <string name="Help">Help</string>
+    <string name="Buy">Buy</string>
+    <string name="Buy_full_ver">Buy full version?</string>
+    <string name="Open_market">Open with Play market</string>
+    <string name="Open_browser">Open with Browser</string>
+    <string name="Menu">Menu</string>
+    <string name="Levels_category_animals">Animals</string>
+    <string name="Levels">Levels</string>
+    <string name="Level">Level</string>
+    <string name="Prev">Prev</string>
+    <string name="Next">Next</string>
+    <string name="Correct">Correct!</string>
+    <string name="SuperWin">Super Win</string>
+    <string name="TryAgain">Incorrect. Try Again!</string>
+    <string name="Sounds">Sounds</string>
+    <string name="MusicOff">Music Off</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+
+    <string name="Natasha">Natasha</string>
+    <string name="Dasha">Dasha</string>
+    <string name="Slavik">Slavik</string>
+    <string name="Android">ANDROID</string>
+    <string name="Fox">FOX</string>
+    <string name="Dog">DOG</string>
+    <string name="Cat">CAT</string>
+    <string name="White">WHITE</string>
+    <string name="Black">BLACK</string>
+    <string name="Green">GREEN</string>
+    <string name="House">House</string>
+    <string name="Door">DOOR</string>
+    <string name="Hand">HAND</string>
+    <string name="Window">WINDOW</string>
+    <string name="Sky">SKY</string>
+    <string name="Water">WATER</string>
+    <string name="Phone">PHONE</string>
+    <string name="Tablet">TABLET</string>
+    <string name="Capital">CAPITAL</string>
+
+
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="AllSoundsOff">AllSoundsOff</string>
+</resources>
